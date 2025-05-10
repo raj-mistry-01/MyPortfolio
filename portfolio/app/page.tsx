@@ -23,7 +23,7 @@ export default function Home() {
                   Computer Science Student & Developer
                 </Badge>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                  Hi, I&apos;m <span className="text-primary">John Doe</span>
+                  Hi, I&apos;m <span className="text-primary">Raj Mistry</span>
                 </h1>
                 <div className="h-10 mt-4">
                   <TypewriterEffect
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 pt-4">
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Link href="https://github.com/raj-mistry-01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Button variant="ghost" size="icon" className="rounded-full h-10 w-10">
                     <Github size={20} />
                   </Button>
