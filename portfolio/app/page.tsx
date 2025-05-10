@@ -23,7 +23,7 @@ export default function Home() {
                   Computer Science Student & Developer
                 </Badge>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                  Hi, I&apos;m <span className="text-primary">Raj Mistry</span>
+                  Hi, I&apos;m <span className="text-primary">Raj Makwana</span>
                 </h1>
                 <div className="h-10 mt-4">
                   <TypewriterEffect
@@ -69,7 +69,7 @@ export default function Home() {
                     <Twitter size={20} />
                   </Button>
                 </Link>
-                <Link href="mailto:contact@example.com" aria-label="Email">
+                <Link href="mailto:makwanaraj782@gmail.com" aria-label="Email">
                   <Button variant="ghost" size="icon" className="rounded-full h-10 w-10">
                     <Mail size={20} />
                   </Button>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="relative z-10 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-background shadow-xl shadow-primary/20">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent z-10"></div>
                   <Image
-                    src="/placeholder.svg?height=320&width=320"
+                    src="/images/profilephoto.jpg?height=320&width=320"
                     alt="Profile Avatar"
                     fill
                     className="object-cover"
