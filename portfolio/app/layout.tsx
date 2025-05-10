@@ -10,9 +10,8 @@ import AnimatedBackground from "@/components/AnimatedBackground"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Developer Portfolio",
+  title: "1xRaj",
   description: "A showcase of my work, skills, and journey as a developer",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

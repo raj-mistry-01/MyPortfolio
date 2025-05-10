@@ -9,7 +9,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com"
+            href="https://github.com/raj-mistry-01"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -18,7 +18,7 @@ export default function Footer() {
             <Github size={20} />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/raj-makwana-9b881528a"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -27,7 +27,7 @@ export default function Footer() {
             <Linkedin size={20} />
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://x.com/raj_mistry01"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"

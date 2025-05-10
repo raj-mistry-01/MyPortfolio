@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Download, ArrowRight, Github, Linkedin, Twitter, Mail, Code, Award, Calendar } from "lucide-react"
+import { Download, ArrowRight, Github, Linkedin, Twitter, Mail, Code, Award, Calendar  , X} from "lucide-react"
 import TypewriterEffect from "@/components/TypewriterEffect"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
@@ -34,8 +34,7 @@ export default function Home() {
               </div>
 
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                A second-year CS student who&apos;s deeply passionate about building projects, exploring computer
-                science, and continuously growing as a developer.
+                A second-year CS student who&apos;s deeply passionate about Complex Logic Design
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -59,12 +58,12 @@ export default function Home() {
                     <Github size={20} />
                   </Button>
                 </Link>
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/raj-makwana-9b881528a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Button variant="ghost" size="icon" className="rounded-full h-10 w-10">
                     <Linkedin size={20} />
                   </Button>
                 </Link>
-                <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <Link href="https://x.com/raj_mistry01" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                   <Button variant="ghost" size="icon" className="rounded-full h-10 w-10">
                     <Twitter size={20} />
                   </Button>
