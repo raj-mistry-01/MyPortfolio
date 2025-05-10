@@ -40,12 +40,12 @@ export default function AnimatedBackground() {
       constructor() {
         this.x = Math.random() * canvas.width
         this.y = Math.random() * canvas.height
-        this.size = Math.random() * 3 + 1
-        this.speedX = Math.random() * 0.5 - 0.25
-        this.speedY = Math.random() * 0.5 - 0.25
+        this.size = Math.random() * 5 + 2 // Increased from 3 + 1
+        this.speedX = Math.random() * 0.8 - 0.4 // Increased from 0.5 - 0.25
+        this.speedY = Math.random() * 0.8 - 0.4 // Increased from 0.5 - 0.25
         this.color = isDark
-          ? `rgba(147, 112, 219, ${Math.random() * 0.2 + 0.1})` // Purple for dark mode
-          : `rgba(100, 149, 237, ${Math.random() * 0.2 + 0.1})` // Blue for light mode
+          ? `rgba(147, 112, 219, ${Math.random() * 0.4 + 0.2})` // Increased opacity from 0.2 + 0.1
+          : `rgba(100, 149, 237, ${Math.random() * 0.4 + 0.2})` // Increased opacity from 0.2 + 0.1
       }
 
       update() {
@@ -70,7 +70,7 @@ export default function AnimatedBackground() {
     // Initialize particles
     const init = () => {
       particles = []
-      const particleCount = Math.min(Math.floor((canvas.width * canvas.height) / 15000), 100)
+      const particleCount = Math.min(Math.floor((canvas.width * canvas.height) / 10000), 150) // Increased from 15000 and 100
 
       for (let i = 0; i < particleCount; i++) {
         particles.push(new Particle())
@@ -82,8 +82,8 @@ export default function AnimatedBackground() {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       // Draw connections between particles
-      ctx.strokeStyle = isDark ? "rgba(147, 112, 219, 0.05)" : "rgba(100, 149, 237, 0.05)"
-      ctx.lineWidth = 1
+      ctx.strokeStyle = isDark ? "rgba(147, 112, 219, 0.1)" : "rgba(100, 149, 237, 0.1)" // Increased from 0.05
+      ctx.lineWidth = 1.5 // Increased from 1
 
       for (let i = 0; i < particles.length; i++) {
         for (let j = i; j < particles.length; j++) {
@@ -91,7 +91,8 @@ export default function AnimatedBackground() {
           const dy = particles[i].y - particles[j].y
           const distance = Math.sqrt(dx * dx + dy * dy)
 
-          if (distance < 120) {
+          if (distance < 150) {
+            // Increased from 120
             ctx.beginPath()
             ctx.moveTo(particles[i].x, particles[i].y)
             ctx.lineTo(particles[j].x, particles[j].y)
@@ -118,5 +119,5 @@ export default function AnimatedBackground() {
     }
   }, [theme])
 
-  return <canvas ref={canvasRef} className="fixed inset-0 w-full h-full -z-10 opacity-70" />
+  return <canvas ref={canvasRef} className="fixed inset-0 w-full h-full -z-10 opacity-90" /> // Increased from opacity-70
 }
