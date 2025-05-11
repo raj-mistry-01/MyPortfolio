@@ -12,7 +12,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <Card className="overflow-hidden transition-all hover:shadow-md">
+    <Card className="overflow-hidden transition-all hover:shadow-md flex flex-col">
       <div className="relative h-48 w-full">
         <Image
           src={project.image || "/placeholder.svg?height=192&width=384"}
@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </CardContent>
 
-      <CardFooter className="flex justify-between p-4 pt-0">
+      <CardFooter className="flex justify-between p-4 pt-0 mt-auto">
         <Button variant="outline" size="sm" asChild>
           <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="gap-1">
             <Github size={16} />
