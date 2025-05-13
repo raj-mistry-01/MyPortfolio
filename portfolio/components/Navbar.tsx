@@ -67,8 +67,8 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isMobile && isMenuOpen && (
-        <div className="fixed inset-0 top-16 z-50 bg-background/95 backdrop-blur-sm">
-          <nav className="container flex flex-col items-center justify-center h-full gap-8">
+        <div className="fixed inset-0  z-50 bg-background/40 backdrop-blur-sm">
+          <nav className="container flex flex-col items-center justify-center h-full gap-8 mt-16">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
