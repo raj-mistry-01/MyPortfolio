@@ -148,14 +148,14 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 mb-16">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="relative p-8">
-            <div className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-6xl text-primary/20">
+            <div className="absolute top-0 left-0 transform -translate-x-4 -translate-y-4 text-6xl text-primary">
               "
             </div>
             <p className="italic text-xl md:text-2xl text-muted-foreground">
               "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't
               settle."
             </p>
-            <div className="absolute bottom-0 right-0 transform translate-x-4 translate-y-4 text-6xl text-primary/20">
+            <div className="absolute bottom-0 right-0 transform translate-x-4 translate-y-4 text-6xl text-primary">
               "
             </div>
             <footer className="mt-4 text-sm text-muted-foreground">— Steve Jobs</footer>
