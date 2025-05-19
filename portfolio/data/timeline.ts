@@ -26,7 +26,7 @@ export const timeline: TimelineEvent[] = [
     startDate: "2025-03-01",
     endDate: "2025-04-01",
     description:
-      "Enrolled in Google Developer Group Ai challlenge , team builded the solution for farmers focusing on precision farming , plant decease detection.",
+      "Enrolled in Google Developer Group Ai challlenge , team builded solution for farmers focusing on precision farming , plant decease detection.",
   },
   {
     id: "4",
@@ -43,7 +43,7 @@ export const timeline: TimelineEvent[] = [
     startDate: "2024-10-01",
     endDate: "2024-10-10",
     description:
-      "Secured Top 5 position in regional Competition of nasa space apps challenge , team builded solution of environmental effect reduction due to construction.",
+      "Secured Top 5 position in regional competition of nasa space apps challenge , team builded solution for environmental effect reduction due to construction.",
   },
   {
     id: "6",
@@ -52,6 +52,6 @@ export const timeline: TimelineEvent[] = [
     startDate: "2024-10-01",
     endDate: "2024-10-10",
     description:
-      "Contibuted to open source projects on Github , unlocked all levels of hacktober.",
+      "Contributed to open source projects on Github , unlocked all levels of hacktober.",
   },
 ]
