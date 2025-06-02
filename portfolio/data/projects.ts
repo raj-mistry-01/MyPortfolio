@@ -17,6 +17,7 @@ export const projects: Project[] = [
     technologies: ["Flutter" , "MongoDB" , "OpenCV" , "Flask" , "NodeJS" , "CrossPlatform"],
     githubUrl: "https://github.com/raj-mistry-01/Now-Ev",
     // liveUrl: "https://task-manager-demo.vercel.app",
+    image:"/images/nowev.png"
   },
   {
     id: "3",
