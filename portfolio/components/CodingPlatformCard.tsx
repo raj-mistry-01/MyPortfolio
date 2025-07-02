@@ -34,7 +34,7 @@ export default function CodingPlatformCard({ profile }: CodingPlatformCardProps)
               </div>
             )}
 
-            {/* <p className="text-sm text-muted-foreground mt-2">{profile.description}</p> */}
+            <p className="text-sm text-muted-foreground mt-2">{profile.description}</p>
           </div>
         </CardContent>
       </Link>

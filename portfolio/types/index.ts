@@ -21,7 +21,7 @@ export interface CodingProfile {
   platform: string
   profileUrl: string
   rating?: string
-  // description: string
+  description?: string
   logo?: string
 }
 

@@ -17,15 +17,15 @@ export default function DevPage() {
         </div>
       </section>
 
-      <section>
-        <h2 className="text-2xl font-semibold mb-6 border-b pb-2">Blog Posts</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          Soon ...
+      {/* <section> */}
+        {/* <h2 className="text-2xl font-semibold mb-6 border-b pb-2">Blog Posts</h2> */}
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6"> */}
+          {/* Soon ... */}
           {/* {blogs.map((blog) => (
             <BlogCard key={blog.id} blog={blog} />
           ))} */}
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
     </div>
   )
 }

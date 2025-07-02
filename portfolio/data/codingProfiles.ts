@@ -5,16 +5,16 @@ export const codingProfiles: CodingProfile[] = [
     id: "1",
     platform: "LeetCode",
     profileUrl: "https://leetcode.com/raj_mistry01",
-    rating: "1778",
+    rating: "1815",
     // description: "Solved 580+ problems across various difficulty levels, focusing on algorithms and data structures.",
     logo : "/images/Leetcode.webp"
   },
   {
     id: "2",
     platform: "Codeforces",
-    profileUrl: "https://codeforces.com/profile/raj_mistry01",
-    rating: "1193",
-    // description: "Participated in 40+ contests.",
+    profileUrl: "https://codeforces.com/profile/bulbasour",
+    rating: "1210",
+    description: "Pupil Rating.",
     // description: "Participated in 25+ contests, specializing in dynamic programming and graph algorithms.",
     logo : "/images/Codeforces.png"
   },

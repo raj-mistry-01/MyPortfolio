@@ -30,7 +30,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="font-bold text-xl">
-          1xRaj
+          Raj Mawkana
         </Link>
 
         {/* Desktop Navigation */}
