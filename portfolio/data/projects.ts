@@ -23,14 +23,14 @@ export const projects: Project[] = [
     id: "3",
     title: "Environmental Assessment",
     description: "Environmental Effect Measurement Due To Construction  , Comprehensive report generation demonstaring effective solution",
-    technologies: ["Machine Learning" , "React" , "Flask" , "GoogleEarthEngine" , "Taillwind"],
+    technologies: ["Machine Learning" , "React" , "Flask" , "GoogleEarthEngine" , "Tailwind"],
     githubUrl: "https://github.com/raj-mistry-01/Environmental-Impact-Assessment",
     image : "/images/Nasa.jpeg"
   },
   {
     id: "4",
     title: "FinTaxAi",
-    description: "Financial Assistant , Daily transaction management , Chatbot for help , Tax Payment Report automated generation.",
+    description: "Financial Assistant , Daily transaction management , Chatbot for help , Automated tax Payment Report generation.",
     technologies: ["Flask" , "NodeJS" , "MongoDB" , "React" , "Tailwind" , "OCR" , "Gemini"],
     githubUrl: "https://github.com/raj-mistry-01/FinTaxAI",
     // liveUrl: "https://social-analytics-demo.vercel.app",

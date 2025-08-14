@@ -20,7 +20,7 @@ export default function Home() {
             <div className="lg:col-span-3 space-y-8">
               <div className="space-y-2">
                 <Badge variant="outline" className="px-4 py-1 text-sm font-medium mb-4 animate-fade-in">
-                  Computer Science Student & Developer
+                  Computer Science Student & Engineer
                 </Badge>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                   Hi, I&apos;m <span className="text-primary">Raj Makwana</span>
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
 
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                A second-year CS student who&apos;s deeply passionate about Complex Logic Design
+                A third-year CS student who&apos;s passionate about Complex Logic Design
               </p>
 
               <div className="flex flex-wrap gap-4">
