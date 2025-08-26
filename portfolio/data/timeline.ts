@@ -3,12 +3,12 @@ import type { TimelineEvent } from "@/types"
 export const timeline: TimelineEvent[] = [
   {
     id: "1",
-    title: "Backend Engineering Intern",
+    title: "Full Stack Engineering Intern",
     role: "Intern - Present 7 month",
     startDate: "2025-01-01",
     // endDate: "2023-11-17",
     description:
-      "Developing the lawyer management system , hired as Backend Engineering intern at MatterAssist startup.",
+      "Developing the lawyer management system , hired as Full Stack Engineering intern at MatterAssist startup.",
   },
   {
     id: "2",
