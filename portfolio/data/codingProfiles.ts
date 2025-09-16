@@ -23,8 +23,8 @@ export const codingProfiles: CodingProfile[] = [
     id: "3",
     platform: "Atcoder",
     profileUrl: "https://atcoder.jp/users/blackDronzer",
-    rating: "556 ― 8 Kyu",
-    // description: "Atcoder Begineer Contests Div2",
+    rating: "799 ― 7 Kyu",
+    description: "Brown Rating.",
     logo : "/images/Atcoder.png"
   },
   {
@@ -34,5 +34,13 @@ export const codingProfiles: CodingProfile[] = [
     rating: "3★ 1617",
     logo : "/images/Codechef.webp"
     // description: "Regular.",
+  },
+  {
+    id: "5",
+    platform: "Codolio Profile",
+    profileUrl: "https://codolio.com/profile/raj_mistry01",
+    // rating: "3★ 1617",
+    logo : "/images/codolio.png",
+    description: "OverAll Performance",
   },
 ]
