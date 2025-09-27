@@ -15,7 +15,7 @@ export async function GET() {
     // })
 
     // Actual implementation would be:
-    const filePath = path.join(process.cwd(), 'public', 'Resume_Raj_Makwana.pdf');
+    const filePath = path.join(process.cwd(), 'public', 'Raj_Makwana.pdf');
     const fileBuffer = fs.readFileSync(filePath);
     return new NextResponse(fileBuffer, {
       headers: {

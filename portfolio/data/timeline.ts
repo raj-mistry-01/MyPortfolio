@@ -4,9 +4,9 @@ export const timeline: TimelineEvent[] = [
   {
     id: "1",
     title: "Full Stack Engineering Intern",
-    role: "Intern - Present 7 month",
+    role: "Intern",
     startDate: "2025-01-01",
-    // endDate: "2023-11-17",
+    endDate: "2025-06-01",
     description:
       "Developing the lawyer management system , hired as Full Stack Engineering intern at MatterAssist startup.",
   },
