@@ -13,8 +13,8 @@ export const codingProfiles: CodingProfile[] = [
   {
     id: "2",
     platform: "Codeforces",
-    profileUrl: "https://codeforces.com/profile/raj_mistry01",
-    rating: "1222",
+    profileUrl: "https://codeforces.com/profile/bulbasour",
+    rating: "1300",
     description: "Pupil Rating.",
     // description: "Participated in 25+ contests, specializing in dynamic programming and graph algorithms.",
     logo : "/images/Codeforces.png"
