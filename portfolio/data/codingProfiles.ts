@@ -23,8 +23,8 @@ export const codingProfiles: CodingProfile[] = [
     id: "3",
     platform: "Atcoder",
     profileUrl: "https://atcoder.jp/users/blackDronzer",
-    rating: "799 ― 7 Kyu",
-    description: "Brown Rating.",
+    rating: "846 ― 6 Kyu",
+    description: "Green Rating.",
     logo : "/images/Atcoder.png"
   },
   {

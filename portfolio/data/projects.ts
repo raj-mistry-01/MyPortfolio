@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     id: "2",
     title: "Now Ev",
-    description: "Eletronic Vehicle Rental Management , CRM platform for company , E-Kyc And Secure Payment Gateway",
+    description: "Eletronic Vehicle Rental Management , CRM platform for company , E-Kyc And Secure Payment Gateway.",
     technologies: ["Flutter" , "MongoDB" , "OpenCV" , "Flask" , "NodeJS" , "CrossPlatform"],
     githubUrl: "https://github.com/raj-mistry-01/Now-Ev",
     // liveUrl: "https://task-manager-demo.vercel.app",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
   {
     id: "6",
     title: "iNoteBook",
-    description: "Digital platform for notes , pdf supported for download",
+    description: "Digital platform for notes , pdf supported for download.",
     technologies: ["Flask", "NodeJS" , "JWT" , "React"],
     githubUrl: "https://github.com/raj-mistry-01/React-projects-for-beginners/tree/main/inotebook",
     liveUrl: "https://inote-pied.vercel.app/",
