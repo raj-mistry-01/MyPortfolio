@@ -3,6 +3,16 @@ import type { TimelineEvent } from "@/types"
 export const timeline: TimelineEvent[] = [
   {
     id: "1",
+    title: "Meta Hacker Cup'25",
+    role: "Participant",
+    startDate: "2025-11-01",
+    endDate: "2025-11-30",
+    description:
+      "Secured Global Rank 5,080 in Round 1 and 3,272 in Round 2",
+    certificateImage : 'images/meta25.png'
+  },
+  {
+    id: "2",
     title: "HacktoberFest'25",
     role: "Contributor",
     startDate: "2025-10-01",
@@ -11,7 +21,7 @@ export const timeline: TimelineEvent[] = [
       "Contributed to open source projects on Github , unlocked all levels of hacktober.",
   },
   {
-    id: "2",
+    id: "3",
     title: "Full Stack Engineering Intern",
     role: "Intern",
     startDate: "2025-01-01",
@@ -20,7 +30,7 @@ export const timeline: TimelineEvent[] = [
       "Developing the lawyer management system , hired as Full Stack Engineering intern at MatterAssist startup.",
   },
   {
-    id: "3",
+    id: "4",
     title: "GDG",
     role: "Participant",
     startDate: "2025-03-01",
@@ -30,7 +40,7 @@ export const timeline: TimelineEvent[] = [
     certificateImage : 'images/gdg.png'
   },
   {
-    id: "4",
+    id: "5",
     title: "CSI HackNuthon'25",
     role: "Participant",
     startDate: "2025-02-21",
@@ -39,7 +49,7 @@ export const timeline: TimelineEvent[] = [
       "Participated in csi hackathon , developed a automated system testing tool for developers.",
     },
     {
-      id: "5",
+      id: "6",
     title: "CSI Cubix'25",
     role: "Participant",
     startDate: "2025-02-21",
@@ -48,7 +58,7 @@ export const timeline: TimelineEvent[] = [
       "Won CSI Club Coding Events, Ranked 2nd in Mockcelerate and 3rd in MemoTech events.",
   },
   {
-    id: "6",
+    id: "7",
     title: "IICPC",
     role: "Top 2000",
     startDate: "2025-03-25",
@@ -57,7 +67,7 @@ export const timeline: TimelineEvent[] = [
     certificateImage : 'images/iicpc.png'
     },
   {
-    id: "7",
+    id: "8",
     title: "Nasa Space Apps Challenge'24",
     role: "Participant",
     startDate: "2024-10-01",
@@ -66,7 +76,7 @@ export const timeline: TimelineEvent[] = [
       "Secured Top 5 position in regional competition of nasa space apps challenge , team builded solution for environmental effect reduction due to construction.",
   },
   {
-    id: "8",
+    id: "9",
     title: "HacktoberFest'24",
     role: "Contributor",
     startDate: "2024-10-01",
