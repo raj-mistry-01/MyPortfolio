@@ -13,7 +13,7 @@ export default function CodingPlatformCard({ profile }: CodingPlatformCardProps)
     <Card className="group relative overflow-hidden bg-gradient-to-br from-background via-background to-muted/20 border-border/50 backdrop-blur-sm transition-all duration-300 hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/30 hover:scale-[1.02]">
       {/* Subtle glow effect on hover */}
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-      
+
       <Link href={profile.profileUrl} target="_blank" rel="noopener noreferrer" className="block h-full">
         <CardContent className="relative p-6 flex items-center gap-5">
           {/* Logo container with enhanced styling */}
@@ -44,9 +44,15 @@ export default function CodingPlatformCard({ profile }: CodingPlatformCardProps)
             {profile.rating && (
               <div className="mb-3">
                 <span className="text-sm text-muted-foreground">Rating: </span>
-                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary/20 to-primary/10 text-primary border border-primary/20">
+                {/* <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary/20 to-primary/10 text-primary border border-primary/20">
+                  {profile.rating}
+                </span> */}
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium
+  bg-gradient-to-r from-amber-700/30 to-amber-500/10
+  text-amber-300 border border-amber-400/30">
                   {profile.rating}
                 </span>
+
               </div>
             )}
 
@@ -68,7 +74,7 @@ export function CompetitiveCodingAchievement() {
       <div className="absolute inset-0 flex items-center">
         <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       </div>
-      
+
       {/* Achievement text with competitive accent */}
       <div className="relative flex justify-center">
         <div className="bg-background px-6 py-3 border border-primary/20 rounded-full shadow-lg">
@@ -77,17 +83,19 @@ export function CompetitiveCodingAchievement() {
             <div className="flex items-center justify-center w-8 h-8 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full border border-primary/30">
               <span className="text-primary font-bold text-sm">🏆</span>
             </div>
-            
+
             {/* Achievement text */}
             <p className="text-sm font-medium">
-              <span className="text-muted-foreground">In competitive coding I have solved </span>
-              <span className="text-primary font-bold text-base">2000+</span>
+              <span className="text-muted-foreground">In <span className="text-amber-300 font-medium drop-shadow-sm">
+                competitive coding
+              </span> I have solved </span>
+              <span className="text-primary font-bold text-base text-amber-300">2000+</span>
               <span className="text-muted-foreground"> algorithmic problems across various coding platforms.</span>
             </p>
           </div>
         </div>
       </div>
-      
+
       {/* Optional: Subtle glow effect */}
       <div className="absolute inset-0 flex justify-center">
         <div className="w-80 h-20 bg-primary/5 blur-xl rounded-full" />
