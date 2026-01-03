@@ -6,7 +6,7 @@ import { blogs } from "@/data/blogs"
 export default function DevPage() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-12 text-center">Development Journey</h1>
+      <h1 className="text-4xl font-bold mb-12 text-center">Development / Projects</h1>
 
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-6 border-b pb-2">Projects</h2>
