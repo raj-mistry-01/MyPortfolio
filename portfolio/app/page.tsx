@@ -33,10 +33,6 @@ export default function Home() {
                 </div>
               </div>
 
-              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-                A third-year CS student who&apos;s passionate about Complex Logic Design
-              </p>
-
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" asChild className="gap-2 rounded-full">
                   <Link href="/api/download-resume">

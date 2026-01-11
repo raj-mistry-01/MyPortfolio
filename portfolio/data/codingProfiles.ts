@@ -5,7 +5,7 @@ export const codingProfiles: CodingProfile[] = [
     id: "1",
     platform: "LeetCode",
     profileUrl: "https://leetcode.com/raj_mistry01",
-    rating: "1917",
+    rating: "1916",
     // description: "Solved 580+ problems across various difficulty levels, focusing on algorithms and data structures.",
     description: "Knight Rating.",
     logo : "/images/Leetcode.webp"
@@ -23,7 +23,7 @@ export const codingProfiles: CodingProfile[] = [
     id: "3",
     platform: "Atcoder",
     profileUrl: "https://atcoder.jp/users/blackDronzer",
-    rating: "846 ― 6 Kyu",
+    rating: "864 ― 6 Kyu",
     description: "Green Rating.",
     logo : "/images/Atcoder.png"
   },
