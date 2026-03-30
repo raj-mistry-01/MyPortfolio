@@ -3,6 +3,15 @@ import type { Project } from "@/types"
 export const projects: Project[] = [
   {
     id: "1",
+    title: "Event-Driven-Ledger",
+    description: "Event Sourcing with PostgreSQL",
+    technologies: ["PostgreSQL" , "Redis" , "Java" , "Spring Boot" , "Kafka" , "Docker"],
+    githubUrl: "https://github.com/raj-mistry-01/Event-Driven-Ledger/tree/working-branch",
+    // liveUrl: "https://ecommerce-demo.vercel.app",
+    image : "/images/eda_.jpeg"
+  },
+  {
+    id: "2",
     title: "PipeTest",
     description: "A System Testing Tool for Developers , Pull Request validation using GitLab CI/CD Pipeline.",
     technologies: ["Flask" , "GitLab CI/CD" , "Selenium" , "Gemini Api" , "React" , "MongoDB" , "Node JS" , "PowerShell Scripting"],
@@ -11,7 +20,7 @@ export const projects: Project[] = [
     image : "/images/Stest.png"
   },
   {
-    id: "2",
+    id: "3",
     title: "Now Ev",
     description: "Eletronic Vehicle Rental Management , CRM platform for company , E-Kyc And Secure Payment Gateway.",
     technologies: ["Flutter" , "MongoDB" , "OpenCV" , "Flask" , "NodeJS" , "CrossPlatform"],
@@ -20,7 +29,7 @@ export const projects: Project[] = [
     image:"/images/nowev.png"
   },
   {
-    id: "3",
+    id: "4",
     title: "Environmental Assessment",
     description: "Environmental Effect Measurement Due To Construction  , Comprehensive report generation demonstaring effective solution",
     technologies: ["Machine Learning" , "React" , "Flask" , "GoogleEarthEngine" , "Tailwind"],
@@ -28,21 +37,13 @@ export const projects: Project[] = [
     image : "/images/Nasa.jpeg"
   },
   {
-    id: "4",
+    id: "5",
     title: "FinTaxAi",
     description: "Financial Assistant , Daily transaction management , Chatbot for help , Automated tax Payment Report generation.",
     technologies: ["Flask" , "NodeJS" , "MongoDB" , "React" , "Tailwind" , "OCR" , "Gemini"],
     githubUrl: "https://github.com/raj-mistry-01/FinTaxAI",
     liveUrl: "https://fin-tax-mu.vercel.app/",
     image : "/images/FinTaxAi.jpeg"
-  },
-  {
-    id: "5",
-    title: "Weather App",
-    description: "Desktop application , accurate weather , history of searched location , dynamic UI according weather condition.",
-    technologies: ["Java" , "Java Swing" , "Open MeteoApi" , "OpenJDK" , "Jar"],
-    githubUrl: "https://github.com/raj-mistry-01/Weather-App",
-    image : "/images/Weather.avif"
   },
   {
     id: "6",
