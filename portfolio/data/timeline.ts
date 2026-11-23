@@ -7,8 +7,7 @@ export const timeline: TimelineEvent[] = [
     role: "SWE Intern",
     startDate: "2026-05-26",
     endDate: "2026-08-14",
-    description:
-      "Worked on data scale",
+    description : "",
     certificateImage : 'images/paypal logo.png'
   },
   {
